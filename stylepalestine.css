@@ -1,0 +1,192 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    padding: 2px 10%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+
+
+
+}
+.menu{
+    width: 35px;
+    cursor: pointer;
+    border-radius: 10px;
+
+
+
+}
+header img:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transfrom: scale(1.5);
+    transform: scale(1.5);}
+.logo{
+    width: 200px;
+    margin-right :200px;
+    border-radius: 10px;
+
+
+}
+.menu1{
+    display: flex;
+    align-items: center;
+
+}
+.menu1 ul{
+    margin-left: 10px;
+    display: flex;
+    list-style: none;
+}
+.menu1 ul a {
+    margin-left: 10px;
+    text-transform: capitalize;
+    font-size: 1em;
+    color: rgb(245, 242, 242);
+    text-decoration: none;
+    position: relative;
+    border-bottom: 3px solid rgb(247, 243, 243);
+    margin-right: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+.esp{
+    margin-right: 15px;
+    
+}
+
+.menu1 a:hover{/*tkhali lien yetbadel lounou rouge ki thot alih souris*/
+    color: grey;
+    
+}
+p{ 
+font-size: 20px;
+font-family: 'Times New Roman', Times, serif;
+font-style: oblique;
+}
+section li{
+font-size: 20px;
+font-family: 'Times New Roman', Times, serif;
+font-style: oblique;
+
+}
+
+#texte{
+    width: 28%;}
+    footer{
+        display: flex;
+        padding:20px 20px 20px 20px;
+        font-size: 0.8em;
+        background-color:rgb(0, 0, 0);
+
+}
+        .img3{
+            border-radius: 10px;
+            margin-right: 2px;
+            width: 50px;
+            height: 50px;
+        padding-left: 10px;}
+            .imgf{
+                width: 250px;
+                padding-top: 50px;
+            }
+        .h1f{
+            color: white;
+            font-size: 20px;
+            padding-left: 10px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .pf{
+            color: white;
+            font-size: 20px;
+            padding-left: 10px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .af{
+            color: white;
+            font-size: 20px;
+            padding-left: 10px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .af:hover{
+            color: gray;}
+            footer img:hover{
+                -ms-transform: scale(1.5);
+-webkit-transfrom: scale(1.5);
+transform: scale(1.5);}
+
+aside {
+    font-size: 1em;
+    flex: 1;
+    position: relative;
+    background: #f1f1f0;
+    box-shadow: 0px 2px 5px #343231;
+    border-radius: 5px;/*l cadre kol matkabbar ywali mdawar akthar*/
+    padding: 10px;
+    color: rgb(18, 12, 12);
+    font-size: 0.8em;
+    line-height:  20px;
+    text-align: justify;}
+    .box .content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: lightGray;
+        text-align: center;
+        align-items: center;
+        }
+    
+        .box .content {
+            transform: translateX(100%);
+            transition: 1s;
+            opacity: 3;
+            }
+        .box:hover {
+                box-shadow: 0 0 10px rgb(245, 161, 6);
+        }
+        .box:hover .content {
+            
+                transform: translateX(0);
+                }
+.maradona{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+}
+.vdo{
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+.vd{
+    border-radius: 10px;
+}
+section{
+    display: flex;
+}
+.vdo1{
+    display: flex;
+   
+}
+.col-lg-4{
+    width: auto;
+    height: 200px;
+    margin-top: 100px;
+    background-color:rgb(240, 254, 255);
+}
+.inner{
+    width: auto;
+    height: 40px;
+    background-color:rgb(129, 125, 129);
+}
+.form-group{
+    font-weight: bold;
+}
